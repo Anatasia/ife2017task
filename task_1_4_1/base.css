@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+
+.wrap{
+	position:absolute;
+	left:50%;
+	top:50%;
+	height:200px;
+	width:400px;
+	background:#ccc;
+	margin-left:-200px;
+	margin-top:-100px;
+}
+
+.circle_left{
+	height:50px;
+	width:50px;
+	background:#FC0;
+	border-bottom-right-radius:50px;
+	position:absolute;
+}
+
+.circle_right{
+	height:50px;
+	width:50px;
+	background:#FC0;
+	border-top-left-radius:50px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
