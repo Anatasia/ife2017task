@@ -1,0 +1,214 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:微软雅黑;
+	background:#CCC;
+	}
+	
+.top{
+	background:#333;
+	height:60px;
+	}
+.logo{
+	float:left;
+	padding-left:20px;
+	}
+.links{
+	float:right;
+	height:60px;
+	}
+.navigation>li,links a{
+	display:inline;
+	font-size:14px;
+	margin-right:20px;
+	}
+.no_linked>a{
+	color:#FFF;
+	text-decoration:none;
+	}
+.linked>a{
+	color:#999;
+	text-decoration:none;
+	}
+
+/*正文*/
+.main{
+	margin-right:470px;
+	width:cacl(100%-600px);
+}
+.first_article,.other_article,.images,.final_article{
+	margin:20px;
+	border-right:groove;
+	border-bottom:groove;
+	background:#FFF;
+	padding:15px;
+	border-left:solid 1px #CCC;
+	border-top:solid 1px #CCC;
+}
+
+h2{
+	margin-top:10px;
+}
+
+h3{
+	margin:10px 0px;
+	color:#666;
+}
+
+.author{
+	font-size:15px;
+	color:#666;
+}
+
+p{
+	margin:10px 0px;
+	text-indent:2em;
+	line-height:2em;
+}
+
+p a{
+	color:#00F;
+}
+
+.img1,.img2{
+	width:20%;
+	height:15%;
+}
+
+.item_list{
+	list-style:none;
+	margin:20px;
+}
+
+.item_list>li{
+	margin-bottom:6px;
+}
+
+/*好看的图片*/
+.images{
+	overflow:hidden;
+}
+.img_item{
+	width:180px;
+	padding:10px;
+	border:solid 1px #CCC;
+	margin-top:20px;
+	margin-left:2em;
+	float:left;
+}
+.img3{
+	width:180px;
+	height:120px;
+}
+
+.describe{
+	text-align:center;
+	margin-bottom:10px;
+}
+
+/*最后一篇文章*/
+.rank{
+	font-weight:bold;
+	margin:20px;
+	padding-left:2em;
+}
+.rank li{
+	margin-bottom:10px;
+}
+
+.info_table{
+	width:100%;
+
+}
+.table_head{
+	background:#333;
+	color:#FFF;
+	font-weight:bold;
+	
+}
+
+.total{
+	background:#999;
+	font-weight:bold;
+}
+
+/*侧栏*/
+.sideBar{
+	margin:20px;
+	border-right:groove;
+	border-bottom:groove;
+	background:#FFF;
+	padding:15px;
+	border-left:solid 1px #CCC;
+	border-top:solid 1px #CCC;
+	width:400px;
+	position:absolute;
+	top:60px;
+	right:0;
+}
+
+.bar_info{
+	margin:20px;
+	padding:10px;
+	border-left:solid 4px #999;
+	font-weight:bold;
+	
+}
+
+.email_address{
+	overflow:hidden;
+}
+.title{
+	width:120px;
+	text-align:right;
+	float:left;
+	margin:10px;
+	
+	
+}
+
+.content{
+	float:left;
+	margin:10px;
+}
+
+.text_info{
+	margin-left:150px;
+	clear:both;
+	color:#666;
+	margin-bottom:10px;
+}
+.clear_float{
+	margin-left:10px;
+	clear:both;
+	clear:both;
+}
+
+.description{
+	font-size:16px;
+	font-weight:bold;
+}
+
+.submit{
+	border-radius:10px;
+	background:#06F;
+	width:98%;
+	margin:0 auto;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-size:15px;
+	padding:10px;
+	clear:both;
+}
+
+.copy{
+	clear:both;
+	background:#333;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+	height:60px;
+	padding-top:20px;
+}
